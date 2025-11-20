@@ -1,0 +1,96 @@
+/* MAIN LAYOUT */
+.main-container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-family: Arial;
+}
+
+.title {
+  margin: 20px 0;
+  color: #2c3e50;
+}
+
+/* FORM STYLING */
+.form-box {
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+  background: #ecf0f1;
+  border-radius: 10px;
+}
+
+.form-box input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 10px;
+  width: 100%;
+  background: #27ae60;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background: #1f8c4a;
+}
+
+/* TABLE STYLING */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+}
+
+/* ACTION BUTTONS */
+.view-btn, .edit-btn, .delete-btn {
+  margin: 2px;
+  padding: 5px 8px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.view-btn { background: #8e44ad; }
+.edit-btn { background: #2980b9; }
+.delete-btn { background: #e74c3c; }
+
+.view-btn:hover { background: #6e3490; }
+.edit-btn:hover { background: #1f6390; }
+.delete-btn:hover { background: #c0392b; }
+
+/* DETAILS CARD */
+.details-card {
+  border: 1px solid gray;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+  background: #f5f6fa;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #3498db;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
